@@ -16,9 +16,9 @@ public class TestCard {
     public void getAllCards(){
         int merchant = 1;
         int user = 44;
-        String expires_at = "1605643855";
+        String expires_at = "1605695389";
         String signature =
-                "91f506698355a385848ad7729e3db53f239f58836381b8cab0e2afd71da85ba09a7a3539ace6f7966bfe82230102284b98d76da559f476381a3bfc2367a33f1d";
+                "8104ec8f457cb9d3d0b4aba00f13ae84abb825f62ac27a8d992b11dfda536a68a22045cf9e7588f7172c609c50ae78daf656c5ccea67c0d4b77f39f15cd37ef6";
 
         String cardData = String.format("merchant/%s/user/%s/expires_at/%s/signature/%s",
                 merchant, user, expires_at, signature
